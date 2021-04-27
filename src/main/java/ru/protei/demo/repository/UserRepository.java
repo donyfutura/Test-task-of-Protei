@@ -1,13 +1,10 @@
-package com.example.demo.repository;
+package ru.protei.demo.repository;
 
-import com.example.demo.entity.Status;
-import org.springframework.data.jpa.repository.JpaRepository;
-import com.example.demo.entity.User;
+import ru.protei.demo.entity.Status;
+import ru.protei.demo.entity.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import java.time.LocalDate;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 

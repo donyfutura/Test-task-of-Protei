@@ -1,4 +1,4 @@
-package com.example.demo.api.request;
+package ru.protei.demo.api.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -1,9 +1,8 @@
-package com.example.demo.controller;
+package ru.protei.demo.controller;
 
-import com.example.demo.api.request.StatusRequest;
-import com.example.demo.api.request.UserRequest;
-import com.example.demo.api.response.StatusResponse;
-import com.example.demo.service.UserService;
+import ru.protei.demo.api.request.StatusRequest;
+import ru.protei.demo.api.request.UserRequest;
+import ru.protei.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

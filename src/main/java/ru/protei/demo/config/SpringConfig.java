@@ -1,8 +1,8 @@
-package com.example.demo.config;
+package ru.protei.demo.config;
 
-import com.example.demo.entity.Status;
-import com.example.demo.entity.User;
-import com.example.demo.repository.UserRepository;
+import ru.protei.demo.entity.Status;
+import ru.protei.demo.entity.User;
+import ru.protei.demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;

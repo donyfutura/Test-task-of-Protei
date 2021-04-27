@@ -1,22 +1,19 @@
-package com.example.demo.service;
+package ru.protei.demo.service;
 
-import com.example.demo.api.request.StatusRequest;
-import com.example.demo.api.request.UserRequest;
-import com.example.demo.api.response.ErrorResponse;
-import com.example.demo.api.response.IdResponse;
-import com.example.demo.api.response.StatusResponse;
-import com.example.demo.entity.Status;
-import com.example.demo.entity.User;
-import com.example.demo.repository.UserRepository;
+import ru.protei.demo.api.request.StatusRequest;
+import ru.protei.demo.api.request.UserRequest;
+import ru.protei.demo.api.response.ErrorResponse;
+import ru.protei.demo.api.response.IdResponse;
+import ru.protei.demo.api.response.StatusResponse;
+import ru.protei.demo.entity.Status;
+import ru.protei.demo.entity.User;
+import ru.protei.demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Optional;
 
 @Service

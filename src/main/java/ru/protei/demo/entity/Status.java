@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package ru.protei.demo.entity;
 
 public enum Status {
     Online, Offline, Away

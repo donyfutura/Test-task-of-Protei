@@ -1,6 +1,6 @@
-package com.example.demo.api.response;
+package ru.protei.demo.api.response;
 
-import com.example.demo.entity.Status;
+import ru.protei.demo.entity.Status;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class StatusResponse {

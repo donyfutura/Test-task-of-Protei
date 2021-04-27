@@ -1,6 +1,6 @@
-package com.example.demo.api.request;
+package ru.protei.demo.api.request;
 
-import com.example.demo.entity.Status;
+import ru.protei.demo.entity.Status;
 
 public class StatusRequest {
 

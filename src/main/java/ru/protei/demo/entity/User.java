@@ -1,11 +1,8 @@
-package com.example.demo.entity;
+package ru.protei.demo.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.Calendar;
 import java.util.Date;
 
 @Entity

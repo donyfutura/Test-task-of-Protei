@@ -1,4 +1,4 @@
-package com.example.demo.api.response;
+package ru.protei.demo.api.response;
 
 public class IdResponse {
     private long id;
