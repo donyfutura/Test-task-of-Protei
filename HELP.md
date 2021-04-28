@@ -1,5 +1,12 @@
 # Getting Started
 
+##1 Settings DB connection 
+You need to configure the connection to the database in the file /resources/application.properties. ddl-auto: true will create all the necessary tables 
+##2 Start 
+Run main method in UserServiceApplication.class
+##3 API
+For learn API, follow the link http://localhost:8080/swagger-ui.html after launching the app
+
 ### Reference Documentation
 
 For further reference, please consider the following sections:

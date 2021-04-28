@@ -10,6 +10,7 @@ public class UserRequest {
     @NotBlank(message = "Name is mandatory")
     private String name;
 
+    @NotBlank
     @Email(message = "Invalid e_mail")
     @JsonProperty("e_mail")
     private String email;

@@ -22,7 +22,7 @@ public class SpringConfig {
         this.userRepository = userRepository;
     }
 
-    @Scheduled(fixedRate = 60000)
+    @Scheduled(fixedRate = 1000)
     public void scheduleFixedRateTask() {
 
         Calendar calendar = Calendar.getInstance();
